@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel=stylesheet type=text/css href=../css/5.10av4.css>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Equilibrium Under Forces Acting in the Same Direction</title>
+</head>
+
+<body>
+    <div id=outer_box>
+        <p>
+            The yellow support below constrains the L-shaped object to at most pivot about the point where it is located, just as the band would do.  Both the support and the band can exert an upward force
+        </p>
+        <p>
+            Move the support (by clicking and dragging on it) to the point where you think it will keep the object in equilibrium.  Then click the 'Show Motion' button to see how close you are.
+        </p>
+        <div id=inner_box>
+            <img id=graph src="../imgs/graph_8.1.1.png" , alt=Background>
+            <label id=h>h</label>
+            <label id=h2>2h</label>
+            <img id=boxes src=../imgs/gray_boxes_line.png alt="gray boxes">
+            <input type=range min=0 max=200 value=80 class=slider id=triangleSlide>
+
+            <!-- X arrow -->
+            <p id=right_arrow_x><i class=right></i></p>
+            <p id=left_arrow_x><i class=left></i></p>
+            <div id=line_between_x></div>
+            <label id=x>x = <span id=x_value></span></label>
+
+            <!-- 2H arrow -->
+            <p id=right_arrow_2h><i class=right></i></p>
+            <p id=left_arrow_2h><i class=left></i></p>
+            <div id=line_between_2h></div>
+
+            <!-- H arrow -->
+            <p id=top_arrow_h><i class=top></i></p>
+            <p id=bottom_arrow_h><i class=bottom></i></p>
+            <div id=line_between_h></div>
+
+        </div>
+        <input type=button id=start value="Show Motion">
+        <input type=button id=reset value="Reset">
+    </div>
+
+        <!-- velocity JS library -->
+    <script src="../node_modules/velocity-animate/velocity.min.js"></script>
+    <script src="../node_modules/velocity-animate/velocity.ui.min.js"></script>
+
+      <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- Javascript file-->
+    <script type=text/javascript src="../js/5.10av4.js"></script>
+
+
+</body>
+
+</html>

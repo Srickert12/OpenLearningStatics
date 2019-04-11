@@ -1,0 +1,215 @@
+#outer_box {
+  background-color: #0000;
+  border: 1px solid black;
+  position: relative;
+  width: 600px;
+  height: 460px;
+}
+
+
+#rightWheel {
+  margin-left: 60px;
+  position: absolute;
+  top: 105px;
+  z-index: 3;
+}
+#leftWheel {
+  margin-left: -150px;
+  position: absolute;
+  top: 105px;
+  z-index: 3;
+}
+
+#dottedcircle {
+margin-left: 38px;
+  position: absolute;
+  top: 217px;
+  z-index: -1;
+    width: 30%;
+  height: auto;
+}
+
+#dottedcircle2 {
+margin-left: 248px;
+  position: absolute;
+  top: 217px;
+  z-index: -1;
+    width: 30%;
+  height: auto;
+}
+
+#leftBlueArrow1 {
+  position: absolute;
+  margin-left: 140px;
+  top: 225px;
+  transform: rotate(150deg);
+  width: 2%;
+  height: auto;
+     z-index: 4;
+}
+
+#leftBlueArrow2 {
+  position: absolute;
+  margin-left: 90px;
+  top: 295px;
+  transform: rotate(90deg);
+  width: 2%;
+  height: auto;
+}
+
+#left15N {
+	position: absolute;
+	margin-left: 140px;
+	top: 230px;
+	width: 5%;
+	height: auto;
+		
+}
+
+#left10N {
+	position: absolute;
+	margin-left:70px;
+	top: 335px;
+	width: 5%;
+	height: auto;
+		
+}
+
+#rightBlueArrow1 {
+  position: absolute;
+  margin-left: 350px;
+  top: 228px;
+  transform: rotate(150deg);
+  width: 2%;
+  height: auto;
+}
+
+#rightBlueArrow2 {
+  position: absolute;
+  margin-left: 305px;
+  top: 295px;
+  transform: rotate(90deg);
+  width: 2%;
+  height: auto;
+}
+#redUpArrow {
+  position: absolute;
+  margin-left: 425px;
+  top: 250px;
+     transform: rotate(-3deg);
+  width: 3%;
+  height: auto;
+    z-index: 4;
+   
+}
+#redDownArrow {
+  position: absolute;
+  margin-left: 425px;
+  top: 300px;
+  transform: rotate(180deg);
+  width: 3%;
+  height: auto;
+     z-index: 4;
+}
+
+#right15N {
+	position: absolute;
+	margin-left: 350px;
+	top: 230px;
+	width: 5%;
+	height: auto;
+		
+}
+
+
+#right10N {
+	position: absolute;
+	margin-left:310px;
+	top: 335px;
+	width: 5%;
+	height: auto;
+		
+}
+#inputRadio {
+        position: absolute;
+  top: 310px;
+  margin-left: 480px;
+    z-index: 6;
+}
+
+
+#description_text {
+  text-align: left;
+  font-size: 13px;
+  padding: 34px;
+}
+
+#leftwheeltext{
+    position: relative;
+     text-align: center;
+  font-size: 13px;
+    margin-left: -320px;
+}
+
+#rightwheeltext{
+    position: relative;
+     text-align: center;
+  font-size: 13px;
+    margin-left: 130px;
+    top: -30px;
+  
+}
+
+#instructions {
+  text-align: center;
+  font-size: 13px;
+  position: absolute;
+  top: 400px;
+  padding: 10px;
+}
+#applyForces {
+  position: absolute;
+  top: 535px;
+  margin-left: 430px;
+  z-index: 5;
+}
+
+#force {
+  position: absolute;
+  top: 280px;
+  margin-left: 480px;
+  width: 150px;
+  padding: 0px;
+    z-index: 5;
+}
+
+
+
+
+#reset {
+  visibility: hidden;
+  position: absolute;
+  top: 360px;
+  left: 490px;
+    z-index: 5;
+}
+
+#apply_force {
+  visibility: visible;
+  position: absolute;
+  left: 490px;
+  top: 360px;
+    z-index: 5;
+}
+
+title {
+  display: none;
+}
+
+h1 {
+  display: none;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}

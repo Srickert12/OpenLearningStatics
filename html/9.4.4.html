@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel=stylesheet type=text/css href=../css/9.4.4.css>
+  <meta charset=utf-8>
+  <meta name=viewport content=width=device-width, initial-scale=1>
+</head>
+
+<body>
+  <style>
+  table, th {
+    border: 1px solid black;
+  }
+</style>
+  <div id=outer_box class=container>
+        <p id=text>Which of the following pairs of forces are directly related to each other either by Newton's 3rd Law or by equilibrium of a body?
+        </p>
+      <div>
+        <table style="width:100%"> <!-- id for each th is in Row Column form -->
+            <tr>
+              <th> </th>
+              <th>A</th>
+              <th>B</th>
+              <th>C</th>
+              <th>D</th>
+              <th>E</th>
+              <th>F</th>
+              <th>G</th>
+              <th>H</th>
+            </tr>
+            <tr>
+              <th>A</th>
+               <th></th>
+              <th><form>
+  <select onchange="checkAnswer(this);" id="boxAB">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+     <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxAC">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxAD">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxAE">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxAF">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxAG">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxAH">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form>
+              </th>
+            </tr>
+            <tr>
+              <th>B</th>
+              <th></th>
+              <th></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxBC">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxBD">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxBE">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxBF">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxBG">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxBH">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+            </tr>
+        <tr>
+              <th>C</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxCD">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxCE">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxCF">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxCG">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxCH">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+            </tr>
+                        <tr>
+              <th>D</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxDE">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxDF">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxDG">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxDH">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+            </tr>
+                        <tr>
+              <th>E</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxEF">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxEG">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxEH">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+            </tr>
+                                    <tr>
+              <th>F</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxFG">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxFH">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+            </tr>
+                                    <tr>
+              <th>G</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th><form><select onchange="checkAnswer(this);" id="boxGH">
+    <option value="question">?</option>
+    <option value="3RD">3RD</option>
+    <option value="EQ">EQ</option>
+        <option value="NR">NR</option>
+</form></th>
+            </tr>
+                                    <tr>
+              <th>H</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+
+        </table>
+
+      </div>
+      <div id=Legend style="clear: both;">
+        <p align=center>Legend</p>
+        <span class=legendText>3RD - Newton's Third Law</span>
+        <span class=legendText>EQ - Equilibrium</span>
+        <span class=legendText>NR - Not Directly Related</span>
+      </div>
+
+
+      <img class=pointer src=../imgs/hint_saying.png alt="hint hat" id="hint_hat" onclick="hint_display()">
+      <img class=pointer src=../imgs/hint_saying.png alt="hint hat" id="hint_hat2" onclick="hint_close()">
+        <div class=container id=hint_box>
+          <p id=hint_text>
+              Does a pair of forces act on the same body and must balance, or do they represent the equal and opposite forces that that two bodies exert on each other? 
+          </p>
+        <img class=pointer id=close src=../imgs/grey_x.png alt="close hint" onclick="hint_close()">
+        <img id=correctSign src=../imgs/green_check.png alt="correct answer">
+        <img id=wrongSign src=../imgs/red_x.png alt="wrong answer">
+      </div>
+  </div>
+  <script src="../node_modules/velocity-animate/velocity.min.js"></script>
+  <script src="../node_modules/velocity-animate/velocity.ui.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type=text/javascript src="../js/9.4.4.js"></script>
+</body>
+
+</html>
+<!--  -->

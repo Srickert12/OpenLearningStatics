@@ -1,0 +1,140 @@
+#outer_box {
+  background-color: #0000;
+  border: 1px solid black;
+  position: relative;
+  width: 500px;
+  height: 265px;
+}
+
+#pooltable1 {
+  position: absolute;
+  height: 100px;
+  width: auto;
+  top: 20px;
+  left: 90px;
+}
+#pooltable2 {
+  position: absolute;
+  height: 100px;
+  width: auto;
+  top: 20px;
+  left: 295px;
+}
+#poolstick1 {
+    position: absolute;
+    height: 100px;
+    width: auto;
+    top: 99px;
+    left: 115px;
+}
+#poolstick2 {
+  position: absolute;
+  height: auto;
+  width: 100px;
+  top: 90px;
+  left: 11px;
+}
+#poolstick3 {
+  position: absolute;
+  height: 61px;
+  width: auto;
+  top: 95px;
+  left: 228px;
+}
+
+.circle {
+    height:10px;
+    border-radius:50%;
+    width:10px;
+}
+
+#circle1 {
+  position: absolute;
+  background-color: orange;
+  border:1px solid black;
+  top: 88px;
+  left: 112px;
+  z-index: 2;
+}
+
+#circle2 {
+  position: absolute;
+  background-color: #0099FF;
+  border:1px solid black;
+  top: 88px;
+  left: 317px;
+  z-index: 2;
+}
+
+#force1 {
+  position: absolute;
+  color: blue;
+  top: 160px;
+  margin-left: 120px;
+  width: 150px;
+  padding: 1px;
+  font-size: 22px;
+  font-weight: normal;
+}
+#force2 {
+  position: absolute;
+  color: blue;
+  top: 64px;
+  margin-left: 20px;
+  width: 150px;
+  padding: 1px;
+  font-size: 22px;
+  font-weight: normal;
+}
+#force3 {
+  position: absolute;
+  color: blue;
+  top: 140px;
+  margin-left: 270px;
+  width: 150px;
+  padding: 1px;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+#line {
+  background-color: #0000;
+  /*border: 1px solid black;*/
+  position: relative;
+  width: 500px;
+  height: 10px;
+  position: absolute;
+  left: 0px;
+  top: 190px;
+  z-index: -2;
+}
+
+hr {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#start {
+  position: absolute;
+  top: 220px;
+  left: 203px;
+}
+#reset {
+  visibility: hidden;
+  position: absolute;
+  top: 220px;
+  left: 203px;
+}
+
+title {
+  display: none;
+}
+
+h1 {
+  display: none;
+}

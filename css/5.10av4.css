@@ -1,0 +1,253 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+}
+
+/* Divisions */
+
+#outer_box {
+  background-color: #0000;
+  border: 1px solid black;
+  width: 500px;
+  height: 495px;
+  position: absolute;
+
+}
+
+#inner_box {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    top: 135px;
+    left: 15px;
+    z-index: 3;
+    display: inline;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#graph {
+  top: 0px;
+  position: absolute;
+  width: 350px;
+  height: 300px;
+}
+
+/* text labels (p, x, h, 2h) */
+
+p {
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#x {
+  color: green;
+  position: absolute;
+  top: 250px;
+  left: 70px;
+  font-size: 13px;
+}
+
+#x_value {
+  color: green;
+  font-size: 13px;
+}
+
+#h {
+    color: green;
+    position: absolute;
+    left: 10px;
+    top: 135px;
+    font-size: 13px;
+    
+}
+
+#h2 {
+    color: green;
+    position: absolute;
+    top: 60px;
+    left: 155px;
+    font-size: 13px;
+}
+
+/* Buttons */
+
+#start {
+    position: absolute;
+    left: 390px;
+    top: 290px;
+    width:90px;
+    z-index: 3;
+}
+
+#reset {
+    visibility: hidden;
+    position: absolute;
+    left: 390px;
+    top: 290px;
+    width: 90px;
+    z-index: 3;
+}
+
+/* Gray box */
+
+#boxes {
+    position: absolute;
+    width: 83%;
+    top: 99px;
+    left: 40px;
+    z-index: 1;
+    
+}
+
+/* yellow triangle */
+
+#triangleSlide {
+    position: absolute;
+    top: 123px;
+    left: 50px;
+    z-index: 10;
+    outline: none;
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 294px;
+    height: 25px;
+    background: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 25px solid gold;
+    cursor: pointer; 
+}
+
+.slider::-moz-range-thumb {
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 25px solid gold;
+    cursor: pointer; 
+}
+
+
+
+/* general arrowhead properties */
+
+i {
+  border: solid green;
+  border-width: 0 1.5px 1.5px 0;
+  display: inline-block;
+  padding: 2px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.top {
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+}
+
+.bottom {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* x arrow properties  */
+
+#left_arrow_x {
+  left: 55px;
+  top: 215px;
+  width: 118px;
+  height: 65px;
+  position: absolute;
+}
+
+#right_arrow_x {
+  left: 151px;
+  top: 215px;
+  width: 118px;
+  height: 65px;
+  position: absolute;
+}
+
+#line_between_x {
+    background-color: green;
+    position: absolute;
+    left: 71px;
+    top: 240px;
+    height: 2px;
+    width: 101px;
+}
+
+/* 2h arrow properties  */
+
+#right_arrow_2h {
+  left: 307px;
+  top: 57px;
+  width: 118px;
+  height: 65px;
+  position: absolute;
+}
+
+#left_arrow_2h {
+  left: 31px;
+  top: 57px;
+  width: 118px;
+  height: 65px;
+  position: absolute;
+}
+
+#line_between_2h {
+    background-color: green;
+    position: absolute;
+    left: 46px;
+    top: 82px;
+    height: 2px;
+    width: 282px;    
+}
+
+/* 2h arrow properties  */
+
+#top_arrow_h {
+  left: 11px;
+  top: 80px;
+  width: 118px;
+  height: 65px;
+  position: absolute;
+}
+
+#bottom_arrow_h {
+  left: 11px;
+  top: 201px;
+  width: 118px;
+  height: 65px;
+  position: absolute;
+}
+
+#line_between_h {
+    background-color: green;
+    position: absolute;
+    left: 27.5px;
+    top: 104px;
+    height: 125px;
+    width: 2px;    
+}
+
+

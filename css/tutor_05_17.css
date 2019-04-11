@@ -1,0 +1,104 @@
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 14px;
+}
+
+#circle {
+    border-radius: 50%;
+    border: 1px solid black;
+    background: red;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 230px;
+    left: 40px;
+}
+
+#brown_bar {
+    width: 5px;
+    height: 130px;
+    position: absolute;
+    top:56px;
+    left:77px;
+    z-index: 1;
+    transform-origin: top;
+    transform: rotate(-10deg);
+}
+
+#black_bar {
+    position: absolute;
+    height: 200px;
+    left: -40px;
+}
+
+#diagonal_lines {
+    position: absolute;
+    top: 35px;
+    height: 55px;
+    left: 55px
+}
+
+#container {
+    width: 500px;
+    height: 300px;
+}
+
+#fingerSlider {
+    position: absolute;
+    left: 170px;
+    top: 250px;
+    width: 205px;
+    z-index: 2;
+    outline: none;
+}
+
+.slide {
+    -webkit-appearance: none;
+    height: 3px;
+    background: lightgray;
+    outline: none;
+
+}
+.slide::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 15px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
+    background: gray; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    box-shadow: 0px 1px 1px #888888;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+#numberBox {
+    position: absolute;
+    left: 340px;
+    top: 70px;
+    width: 130px;
+    height: 65px;
+    border: 1px solid black;
+}
+
+#top {
+    position: absolute;
+    top: 270px;
+    left: 330px;
+}
+
+#bottom {
+    position: absolute;
+    top: 270px;
+    left: 130px;
+}
+
+#gray_boxes {
+    width: 150px;
+    position: absolute;
+    top: 177px;
+    left: 51px;
+}

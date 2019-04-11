@@ -1,0 +1,108 @@
+#outer_box {
+  border: 1px solid black;
+  width: 515px;
+  position: relative;
+  height: 430px;
+  box-shadow: 0px 1px 1px #888888;
+  padding-top: 10px;
+}
+
+th {
+    width: 100px;
+}
+
+#green {
+    color: green;
+    font-weight: bold;
+}
+
+/* HINTS */
+
+/* hint */
+ #correctSign {
+   visibility: hidden;
+   left: 10px;
+   top:8px;
+   position: absolute;
+}
+
+#wrongSign {
+  visibility: hidden;
+  left: 10px;
+  top:8px;
+  position: absolute;
+}
+#close {
+  left: 450px;
+  top: 5px;
+  visibility: hidden;
+  position: absolute;
+}
+
+#hint_hat {
+  position: absolute;
+  margin-left: 400px;
+  top:305px;
+  z-index: 3;
+}
+#hint_hat2 {
+  position: absolute;
+  margin-left: 400px;
+  top:305px;
+  z-index: 3;
+  visibility: hidden;
+}
+.pointer {
+  cursor: pointer;
+}
+
+
+#hint_box {
+  left: 9px;
+  top: 77px;
+  visibility: hidden;
+  position:absolute;
+  width: 460px;
+  height: 70px;
+  border: solid 2px;
+  border-color: #73716e;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  padding: 4px 7px 4px 7px;
+  margin-top: 5px;
+  margin: 5px 24px 0px 0px;
+  line-height: 1.1em;
+  width: 97%;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow:    1px 1px 1px rgba(0, 0, 0, 0.35);
+  box-shadow:         1px 1px 1px rgba(0, 0, 0, 0.35);
+  text-shadow: 0px -1px 2px #dfdfdf;
+  line-height: 1.4em;
+  min-height: 20px;
+  background-color: #FDEAA2;
+  min-height: 32px;
+}
+
+#hint_text {
+  position: absolute;
+  font-size: 13px;
+  padding-left: 30px;
+  height: 100%;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+
+#Legend {
+  position: absolute;
+  top: 255px;
+  font-size: 12px;
+  border: 1px solid black;
+  z-index: 3;
+  width: 94%;
+}
+
+.legendText {
+    padding:18px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel=stylesheet type=text/css href=../css/4.09.css>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Definition of Movement in 2D (3/3)</title>
+</head>
+
+<body>
+  <div class=container id=outer_box>
+    <header>
+      <h1></h1>
+    </header>
+    <p id=description_text>
+    You can adjust magnitude of the force using the slider/dial, and choose its sense to be downward or upward. Click on Start.  At the left you will see the motion of the wheel if just the original two forces acted for a brief period of time.  At the right you will see the motion of the wheel if all three forces acted for a brief period of time. <br> <br>
+    Adjust the force in different ways and observe the effects.
+    </p>  
+      <p id=leftwheeltext>
+          wheel with original two forces
+      </p>
+      <p id=rightwheeltext>
+          wheel with three forces
+      </p>
+      <form id ="inputRadio">
+          <input type="radio" name=forcedirection id=upforce value="up" onchange="forceDirection()"checked="checked"> Up
+      <input type="radio" name=forcedirection id=downforce value ="down" onchange="forceDirection()"> Down
+</form> 
+    <img id=dottedcircle src=../imgs/4.09DottedCircle.png></img>
+     <img id=dottedcircle2 src=../imgs/4.09DottedCircle.png></img>
+    <img id=leftWheel src=../imgs/4.09wheel.png alt="wheel 1"></img>          
+    <img id=rightWheel src=../imgs/4.09wheel.png alt="wheel 2"></img>
+	<img id=leftBlueArrow1 src=../imgs/4.09BlueArrowCrop.png></img>
+	<img id=leftBlueArrow2 src=../imgs/4.09BlueArrowCrop.png></img>					<img id=rightBlueArrow1 src=../imgs/4.09BlueArrowCrop.png></img>
+	<img id=rightBlueArrow2 src=../imgs/4.09BlueArrowCrop.png></img>
+    <img id=redUpArrow name =redUpArrow src=../imgs/4.09RedArrow.png></img>
+     <img id=redDownArrow name=redDownArrow src=../imgs/4.09RedArrow.png></img>
+    <img id=left10N src=../imgs/4.0910N.png></img>
+    <img id=left15N src=../imgs/4.0915N.png></img>
+    <img id=right10N src=../imgs/4.0910N.png></img>
+    <img id=right15N src=../imgs/4.0915N.png></img>
+
+    <div id=forcesBox>
+      <label for=force id=labelforce1></label>
+      <input type="number" name=force id=force value="0" onkeydown="return false"  min ="0" max="10" style="width: 50px">
+      <input type="button" id=apply_force value="Apply Forces">
+      <input type=button id=reset name=reset value="      Reset       ">
+    </div>
+  </div>
+  <script src="../node_modules/velocity-animate/velocity.min.js"></script>
+  <script src="../node_modules/velocity-animate/velocity.ui.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel=stylesheet href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type=text/javascript src="../js/4.09.js"></script>
+</body>
+
+</html>
